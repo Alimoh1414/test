@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+import 'package:helloWorld/helloWorld.dart' as helloWorld;
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-</body>
-</html>
+void main(List<String> arguments) {
+  print('Hello world: ${helloWorld.calculate()}!');
+}
