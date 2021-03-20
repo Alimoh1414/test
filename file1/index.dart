@@ -5,16 +5,16 @@ void main() {
 
   List<int> myList = [];
 
-  for ( int i = 0 ; i < 50 ; i++ ){
+  for ( int i = 0 ; i < 20 ; i++ ){
     int myInt = random.nextInt(500);
     myList.add(myInt);
   }
 
-  for ( int j = 0 ; j < myList.length ; j++ ){
-    print(myList[j]);
-  }
-
   for ( int e in myList ){
-    print(e);
+    if(e % 2 == 0 ){
+      print("$e is Double");
+    }else{
+      print('$e is single');
+    }
   }
 }
