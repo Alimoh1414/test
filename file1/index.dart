@@ -6,16 +6,27 @@ void main() {
 
   print(myList.length);
 
-  while (myList.length < 100) {
-    int myInt = random.nextInt(100);
+  while (myList.length < 50) {
+    int myInt = random.nextInt(50);
     if (!myList.contains(myInt)) {
       myList.add(myInt);
     }
   }
-  var myRange = myList.getRange(25, 50);
+  print(myList.length);
+  print(myList);
 
-  for (var e in myRange) {
-    print(e);
+  List<int> evenNumbers = [];
+  List<int> oddNumbers = [];
+
+  for (int e in myList) {
+    if (e % 2 == 0) {
+      evenNumbers.add(e);
+    } else {
+      oddNumbers.add(e);
+    }
   }
+  print(evenNumbers);
+  print(evenNumbers.length);
+  print(oddNumbers);
+  print(oddNumbers.length);
 }
-
