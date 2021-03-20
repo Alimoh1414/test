@@ -2,10 +2,6 @@
   List<String> names = ['A' , 'B' , 'C'];
   var collection = [ 25 , 'Ali' , 2.57];
 
-  print(names);
-  print(names[1]);
-
-  print(myList);
-  print(myList[1]);
-  
-  print(collection);
+ for(int i = 0 ; i < myList.length ; i++){
+   print(myList[i]);
+ }
