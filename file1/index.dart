@@ -1,8 +1,5 @@
-  int a = 600 ;
-  int b = 450 ;
-
-  if ( ( (a > b ) && ( b > 200 ) ) || (b < a )) {
-    print('yes');
-  }else{
-    print('no');
+  var a = 6;
+  for (int i = 1 ; i < 5 ; i++ ){
+   a = a + 5 ; // => a =+ 5 ;
+   print(a);
   }
