@@ -1,5 +1,11 @@
-import 'package:helloWorld/helloWorld.dart' as helloWorld;
+  int a = 1 ;
+  int b = 2 ;
 
-void main(List<String> arguments) {
-  print('Hello world: ${helloWorld.calculate()}!');
-}
+  if ( a == 1 ){
+    print('1');
+    if( b == 2 ){
+      print('2');
+    }
+  }else{
+    print('3');
+  }
