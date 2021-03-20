@@ -1,11 +1,8 @@
-  int a = 1 ;
-  int b = 2 ;
+  int a = 600 ;
+  int b = 450 ;
 
-  if ( a == 1 ){
-    print('1');
-    if( b == 2 ){
-      print('2');
-    }
+  if ( ( (a > b ) && ( b > 200 ) ) || (b < a )) {
+    print('yes');
   }else{
-    print('3');
+    print('no');
   }
