@@ -1,7 +1,13 @@
-  List<int> myList = [12 , 20 , 47 , 10 , 14 , 21];
-  List<String> names = ['A' , 'B' , 'C'];
-  var collection = [ 25 , 'Ali' , 2.57];
+import 'dart:math';
+void main() {
 
- for(int i = 0 ; i < myList.length ; i++){
-   print(myList[i]);
- }
+  Random random = Random();
+
+  List<int> myList = [];
+
+  for ( int i = 0 ; i < 150 ; i++ ){
+    int myInt = random.nextInt(500);
+    myList.add(myInt);
+  }
+  print(myList);
+}
